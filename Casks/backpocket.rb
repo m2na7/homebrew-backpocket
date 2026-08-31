@@ -17,7 +17,9 @@ cask "backpocket" do
   # self-updated app as drifted and fights it on the next upgrade.
   auto_updates true
 
-  depends_on macos: ">= :sonoma"
+  # A bare symbol already means "this version or newer"; the string form is
+  # deprecated and prints a warning on every `brew` command that reads this.
+  depends_on macos: :sonoma
 
   app "Backpocket.app"
 
