@@ -2,11 +2,11 @@ cask "backpocket" do
   version "0.1.1"
   sha256 "14af6f32a48134a414e6142ed557b7cbb601f5919977a77b32d19e6b31b5ea97"
 
-  url "https://github.com/m2na7/backpocket/releases/download/v#{version}/Backpocket.zip",
-      verified: "github.com/m2na7/backpocket/"
+  url "https://github.com/m2na7/Backpocket/releases/download/v#{version}/Backpocket.zip",
+      verified: "github.com/m2na7/Backpocket/"
   name "Backpocket"
   desc "Clipboard history and quick notes, merged into a single keystroke"
-  homepage "https://github.com/m2na7/backpocket"
+  homepage "https://github.com/m2na7/Backpocket"
 
   livecheck do
     url :url
