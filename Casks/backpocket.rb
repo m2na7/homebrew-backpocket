@@ -1,6 +1,6 @@
 cask "backpocket" do
-  version "0.1.6"
-  sha256 "d7249cb299e1ed79f63260416e177215a6a0aa25a437fe35405a80572a952c8e"
+  version "0.1.7"
+  sha256 "20fead37c61b684d98e837e0a9df00972acb74b7fd9f6451a5b91098a86a2371"
 
   url "https://github.com/m2na7/Backpocket/releases/download/v#{version}/Backpocket.zip",
       verified: "github.com/m2na7/Backpocket/"
